@@ -1,0 +1,46 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  font-family: YuGothic;
+}
+
+#window {
+  position: absolute;
+  width: 400px;
+  height: 180px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: rgba(255, 255, 255, 1.0);
+  border-radius: 8px;
+  filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.2));
+}
+
+#title h1 {
+  margin: 12px 0px 0px 0px;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  text-align: center;
+}
+
+#title p {
+  margin: -2px 0px 0px 0px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 8.5px;
+}
+
+#location {
+  margin: 40px 0px 0px 0px;
+  font-size: 14px;
+  letter-spacing: 1.1px;
+  text-align: center;
+}
+
+#weather {
+  margin: -12px 0px 0px 0px;
+  height: 48px;
+  font-size: 48px;
+  letter-spacing: 1.1px;
+  text-align: center;
+}
